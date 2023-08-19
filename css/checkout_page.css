@@ -71,6 +71,9 @@ background-color: var(--checkout_page_bg_color);
   align-items: center;
   cursor: pointer;
 }
+.check_out_shipping_method_tabs a:hover{
+  text-decoration: none;
+}
 .check_out_shipping_method_tabs a span {
   font-weight: 500;
   font-size: 14px;
@@ -200,5 +203,29 @@ background-color: var(--checkout_page_bg_color);
     -webkit-transform: scale(1);
     transform: scale(1);
 }
-
+@media(max-width:768px){
+  .checkout_page_box {
+    grid-template-columns: 1fr;
+    gap: 20px 30px;
+    grid-template-areas: "."; 
+}
+.check_out_verification_steps {
+  padding: 15px 15px;
+}
+.checkout_page_box_heading_box {
+  padding-bottom: 15px;
+}
+.checkout_page_box_heading_box h2 {
+  font-size: 24px;
+  line-height: 26px;
+}
+.check_out_location_selector {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+.checkout_payment_type_box {
+  padding-top: 15px;
+  margin-top: 15px;
+}
+}
 /* checkout details section start  */

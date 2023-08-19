@@ -12,7 +12,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  font-family: 'Work Sans' !important;
+  font-family: 'Work Sans' ;
 }
 html {
   scroll-behavior: smooth;
@@ -184,6 +184,10 @@ color: var(--checkout_input_placeholder_color);
   border: unset !important;
   outline: unset;
 }
+.check_out_single_field_box select:focus-visible {
+  border: unset !important;
+  outline: unset;
+}
 .check_out_single_field_box input::placeholder {
   font-style: normal;
   font-weight: normal;
@@ -191,5 +195,11 @@ color: var(--checkout_input_placeholder_color);
   line-height: 17px;
   text-transform: capitalize;
   color: var(--checkout_input_placeholder_color);
+}
+@media(max-width:992px){
+  .check_out_form_data_box {
+    grid-template-columns: 1fr;
+    grid-template-areas: ".";
+}
 }
 /*  complete checkout form inputs css end */

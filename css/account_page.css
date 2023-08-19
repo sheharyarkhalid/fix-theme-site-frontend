@@ -7,6 +7,8 @@
   padding: 20px 10px 40px 10px;
   background-color: var(--checkout_page_bg_color);
 display: inline-block;
+height: 100vh;
+position: relative;
 }
 .checkout_container {
   max-width: 1200px;

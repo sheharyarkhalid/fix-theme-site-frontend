@@ -56,6 +56,9 @@ for (i = 0; i < acc.length; i++) {
 
       ],
     });
+
+
+
   });
 
 
@@ -166,3 +169,28 @@ for (i = 0; i < acc.length; i++) {
     })();
 
   });
+
+  $(function () {
+    $(".draging_icon").draggable({ containment: "parent" });
+  });
+
+  
+
+   $(document).mouseup(function (e) {
+
+    $(".draging_icon").click(function () {
+      $(".cart_navigation").addClass("active");
+      $(".draging_icon").addClass("active");
+    });
+    $(".close_cart_navigation_btn").click(function () {
+      $(".cart_navigation").removeClass("active");
+      $(".draging_icon").removeClass("active");
+    });
+
+         var container_two = $(".cart_navigation.active");
+         if(!container_two.is(e.target) && 
+         container_two.has(e.target).length === 0) {
+           container_two.removeClass("active");
+         $(".draging_icon").removeClass("active");
+         }
+     });
