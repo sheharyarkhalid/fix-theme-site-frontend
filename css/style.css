@@ -1426,6 +1426,7 @@ div#add_to_cart_popup {
   .product_popup_detail_content {
     grid-template-columns: 1fr;
     grid-template-areas: ".";
+        gap: 0px;
 }
   .addToCartPopup_container {
     padding: 5px 5px;
