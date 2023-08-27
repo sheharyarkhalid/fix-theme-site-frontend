@@ -1426,7 +1426,6 @@ div#add_to_cart_popup {
   .product_popup_detail_content {
     grid-template-columns: 1fr;
     grid-template-areas: ".";
-        gap: 0px;
 }
   .addToCartPopup_container {
     padding: 5px 5px;
@@ -1439,7 +1438,7 @@ div#add_to_cart_popup {
 }
 div#add_to_cart_popup {
   padding: 0px 0px !important;
-  height: 100vh;
+  height: 100%;
 }
   #add_to_cart_popup .web_header_modal_zoom {
     height: 100% !important;
