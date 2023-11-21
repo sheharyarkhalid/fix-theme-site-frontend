@@ -2,26 +2,25 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/dragable_cart.css" />
-  <link rel="stylesheet" href="css/detail_page.css" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>ETOA | Home</title>
+  <meta name="description" content="ETOA Project">
+  <meta name="keywords" content="south africa">
+  <meta name="author" content="ETOA">
 
   <!-- fontawsome link start-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
- 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
 
-    <!-- fontawsome link end -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+  <!-- fontawsome link end -->
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -32,415 +31,962 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
-   
+  <link rel=stylesheet type=text/css href="css/slick.css">
+  <link rel=stylesheet type=text/css href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
 
 
-  <!-- dragable cart script -->
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
 
-  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+ 
 
-  <script type=text/javascript src="js/custom_script.js"></script>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <script type=text/javascript src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-
-  <link rel=stylesheet type=text/css href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
-  <link rel=stylesheet type=text/css href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css" />
+  <!-- script -->
 
 </head>
 
 <body>
 
   <header class="desk_header">
+    <div class="header_bar_0">
+      <div class="custom_container">
+        <div class="header_bar_0_list">
+          <ul class="bar_0_left">
+            <li><a><i class="fa-sharp fa-solid fa-phone"></i>
+                +1 416-888-0618</a></li>
+          </ul>
+          <ul class="bar_0_center">
+            <li>
+              <p>Ethiopian Tour Operator association</p>
+            </li>
+          </ul>
+          <ul class="bar_0_right">
+            <li><a><i class="fa-solid fa-envelope"></i> info@atta.travel</a></li>
+            <li><a><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="header_bar_1">
       <div class="custom_container">
         <div class="header_bar_1_list">
-          <div class="header_location_bar">
-            <a type="button" data-toggle="modal" data-target="#current_location_modal" class="header_location_selector">
-              <i class="fas fa-map-marker-alt"></i>
-              <div class="header_location_data">
-                <span>Current Location <i class="fas fa-caret-down"></i></span>
-                <p>Al hamra Town, Lahore</p>
-              </div>
-            </a>
-          </div>
-          <a class="header_logo"><img class="lazy" data-src=""
-              src="images/logo.jpg" alt="logo" /></a>
-          <div class="header_ecomerce_links">
-            <a class="header_location_btn" type="button" data-toggle="modal" data-target="#web_header_search"><i
-                class="fa-regular fa-magnifying-glass"></i></a>
-            <a class="header_signin_btn"><i class="fa-regular fa-user"></i></a>
-            <a class="header_cart_btn"><i class="fa-regular fa-cart-shopping"></i></a>
-          </div>
+          <ul class="bar_1_left">
+            <li><a>Events</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Our Gallery</a></li>
+            <li><a>About </a></li>
+            <li><a>Contact </a></li>
+          </ul>
+          <ul class="bar_1_center">
+            <li><a><img data-src="images/logo.png" src="images/logo.png" alt="logo"></a></li>
+          </ul>
+          <ul class="bar_1_right">
+            <li class="bar_1_right_login_btn"><a><i class="fa-light fa-user"></i>
+                Login/Signup</a></li>
+            <li class="bar_1_right_btn"><a>Join the Community</a></li>
+          </ul>
         </div>
       </div>
     </div>
+
   </header>
+
   <header class="mobile_header">
-    <div class="mobile_header_bar_1">
-      <div class="mobile_header_bar_1_left">
-        <a class="header_logo"><img class="lazy" data-src=""
-            src="images/logo.jpg" alt="logo" /></a>
-        <a type="button" data-toggle="modal" data-target="#current_location_modal" class="header_location_selector">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="header_location_data">
-            <span>Current Location <i class="fas fa-caret-down"></i></span>
-            <p>Al hamra Town, Lahore</p>
+    <div class="header_bar_0">
+      <div class="custom_container">
+        <div class="header_bar_0_list">
+          <ul class="bar_0_left">
+            <li><a><i class="fa-sharp fa-solid fa-phone"></i>
+                +1 416-888-0618</a></li>
+          </ul>
+
+          <ul class="bar_0_right">
+            <li><a><i class="fa-solid fa-envelope"></i> info@atta.travel</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="header_bar_1">
+      <div class="custom_container">
+        <div class="header_bar_1_list">
+
+          <div class="res_toggle_button">
+            <i class="fa-light fa-bars"></i>
           </div>
-        </a>
-      </div>
 
-      <div class="header_ecomerce_links">
-        <a class="header_location_btn" type="button" data-toggle="modal" data-target="#web_header_search"><i
-            class="fa-regular fa-magnifying-glass"></i></a>
-        <a class="header_signin_btn"><i class="fa-regular fa-user"></i></a>
-      </div>
+          <ul class="bar_1_center">
+            <li><a><img data-src="images/logo.png" src="images/logo.png" alt="logo"></a></li>
+          </ul>
 
+          <ul class="bar_1_right">
+            <li class="bar_1_right_login_btn"><a><i class="fa-light fa-user"></i>
+                <span>Login/Signup</span></a></li>
+            <li class="bar_1_right_btn"><a>Join the Community</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="header_bar_2">
+      <a>Join the Community</a>
+    </div>
+
+    <div class="header_links">
+      <div class="cross_btn"><i class="res_toggle_button fa-sharp fa-light fa-xmark"></i></div>
+      <div class="header_links_list">
+        <a>Home</a>
+        <a>About</a>
+        <a>Our Gallery </a>
+        <a>Contact</a>
+        <a>Events</a>
+        <a>Blogs</a>
+      </div>
     </div>
   </header>
-  <div class="modal fade" id="web_header_search" tabindex="-1" role="dialog" aria-labelledby="web_header_search"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered web_header_modal_zoom search_modal_container" role="document">
-      <div class="modal-content search_modal_content">
-        <div class="search_modal_header">
-          <h3>Search</h3>
-          <a type="button" class="search_modal_cross_btn" data-dismiss="modal" aria-label="Close">
-            <i class="fa-solid fa-xmark-large"></i>
-          </a>
-        </div>
-        <div class="search_modal_body">
-          <div class="search_modal_box">
-            <input type="search" autocomplete="off" name="header_search" placeholder="Search products here…" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="current_location_modal" tabindex="-1" role="dialog"
-    aria-labelledby="current_location_modal" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered web_header_modal_zoom search_modal_container" role="document">
-      <div class="modal-content current_location_content">
-        <div class="current_location_header">
-          <a type="button" class="current_location_cross_btn" data-dismiss="modal" aria-label="Close">
-            <i class="fa-solid fa-xmark-large"></i>
-          </a>
-        </div>
-        <div class="current_location_body">
-          <figure><img src="images/logo.jpg"></figure>
-          <div class="current_location_box">
-            <span>Choose Your Nearest Branch</span>
-            <select>
-              <option selected disabled>Select your location</option>
-            </select>
-          </div>
-          <div class="current_location_box_btn">
-            <button>Select</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <section class="banner_section">
-    <div class="banner_slider_arrow_box"></div>
+
     <div class="Banner_slider">
       <div class="Banner">
-        <figure><img src="images/banner1.webp" /></figure>
+        <figure>
+          <img src="images/homebanner1.png" alt="homebanner1">
+          <section class="banner_text_section">
+            <div class="banner_custom_container">
+              <div class="banner_slider_text_parent">
+
+                <div class="banner_slider_text">
+                  <h2>The Voice of African Tourism</h2>
+                  <p>ATTA® serves and supports businesses in Africa and the
+                    Indian Ocean Islands representing buyers and suppliers
+                    of tourism product across 24 African countries. With 612
+                    members, ATTA® acts as Pan-Africa’s
+                    largest network of tourism product covering not only
+                    accommodation, transport and travel specialists in Africa,
+                    but a formidable selection of tour operators,
+                    representation and PR companies worldwide promoting
+                    tourism to Africa. </p>
+                  <div class="first_banner_shop_btn"><a>Join the Membership</a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </figure>
       </div>
       <div class="Banner">
-        <figure><img src="images/banner2.webp" /></figure>
+        <figure>
+          <img src="images/homebanner2.png" alt="homebanner2">
+
+          <section class="banner_text_section">
+            <div class="banner_custom_container">
+              <div class="banner_slider_text_parent">
+                <div class="banner_slider_text">
+                  <h2>The Voice of African Tourism</h2>
+                  <p>ATTA® serves and supports businesses in Africa and the
+                    Indian Ocean Islands representing buyers and suppliers
+                    of tourism product across 24 African countries. With 612
+                    members, ATTA® acts as Pan-Africa’s
+                    largest network of tourism product covering not only
+                    accommodation, transport and travel specialists in Africa,
+                    but a formidable selection of tour operators,
+                    representation and PR companies worldwide promoting
+                    tourism to Africa. </p>
+                  <div class="first_banner_shop_btn"><a>Join the Membership</a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </figure>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="member_search_section">
+    <div class="custom_container">
+      <div class="member_search_box">
+        <div class="member_search_box_content">
+          <h3>Search ETOA Members</h3>
+          <p>
+            With 612
+            members, ETOA® acts as Pan-Africa’s
+            largest network of tourism
+          </p>
+        </div>
+        <form method="POST" action="">
+          <div class="member_form_fields_content">
+            <input id="get-user-subscribe-email" type="text" name="member" placeholder="Search Member" required />
+
+
+            <button type="submit" class="">
+              <i class="fas fa-paper-plane"></i>
+              <span class="member_submit_btn_text">Search</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="event_section">
+    <div class="custom_container">
+      <div class="event_main">
+        <div class="event_sliding_box"><small><i class="fal fa-users"></i></small>
+          <h5>Upcoming Events</h5>
+
+          <ul class="event_tabs nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class='nav-link active' id='event-1-tab' data-toggle='tab' href='#event-tab-1' role='tab'
+                aria-controls='event-tab-1' aria-selected='true'>Webinars</a>
+            </li>
+            <li class="nav-item">
+              <a class='nav-link' id='event-2-tab' data-toggle='tab' href='#event-tab-2' role='tab'
+                aria-controls='event-tab-2' aria-selected='false'>Trade Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class='nav-link' id='event-3-tab' data-toggle='tab' href='#event-tab-3' role='tab'
+                aria-controls='event-tab-3' aria-selected='false'>Networking Events & Seminars</a>
+            </li>
+            <li class="nav-item">
+              <a class='nav-link' id='event-4-tab' data-toggle='tab' href='#event-tab-4' role='tab'
+                aria-controls='event-tab-4' aria-selected='false'>Trade Dinners</a>
+            </li>
+          </ul>
+
+
+        </div>
+
+        <div class="tab-content event_tab_data" id="myTabContent">
+          <div class="tab-pane fade show active" id="event-tab-1" role="tabpanel" aria-labelledby="event-1-tab">
+
+            <ul class="event_list">
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <small>Wed Apr 12, 2023 ⋅ 3pm(GMT)</small>
+                    <strong><a>An online meet-up every 2nd
+                        Wednesday of the month</a></strong>
+                    <h6>Organized by Allison W.</h6>
+                    <div class="event_figure_tags_btn"><a>Join the Meet up</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <small>Wed Apr 12, 2023 ⋅ 3pm(GMT)</small>
+                    <strong><a>An online meet-up every 2nd
+                        Wednesday of the month</a></strong>
+                    <h6>Organized by Allison W.</h6>
+                    <div class="event_figure_tags_btn"><a>Join the Meet up</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <small>Wed Apr 12, 2023 ⋅ 3pm(GMT)</small>
+                    <strong><a>An online meet-up every 2nd
+                        Wednesday of the month</a></strong>
+                    <h6>Organized by Allison W.</h6>
+                    <div class="event_figure_tags_btn"><a>Join the Meet up</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <small>Wed Apr 12, 2023 ⋅ 3pm(GMT)</small>
+                    <strong><a>An online meet-up every 2nd
+                        Wednesday of the month</a></strong>
+                    <h6>Organized by Allison W.</h6>
+                    <div class="event_figure_tags_btn"><a>Join the Meet up</a></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+          <div class="tab-pane fade" id="event-tab-2" role="tabpanel" aria-labelledby="event-2-tab">
+
+            <ul class="event_list">
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+          <div class="tab-pane fade" id="event-tab-3" role="tabpanel" aria-labelledby="event-3-tab">
+
+            <ul class="event_list">
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+          <div class="tab-pane fade" id="event-tab-4" role="tabpanel" aria-labelledby="event-4-tab">
+
+            <ul class="event_list">
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="event_figure_box">
+                  <figure><a> <img class="lazy" src="images/member1.png" />
+                    </a></figure>
+                  <div class="event_figure_tags">
+                    <h6>10 Nov 2023</h6>
+                    <strong><a>New Member - HUMANCULTURE</a></strong>
+                    <p>The city's very own Baskin Robbins! Your go-to place for
+                      the best ice cream in the city.</p>
+                    <div class="event_figure_tags_btn"><a>New Member</a></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
       </div>
     </div>
   </section>
 
 
-  <div class="theme_hours_bar_main">
+
+  <div class="home_section_2_main">
     <div class="custom_container">
-      <div class="theme_hours_bar">
-        <div class="theme_bar_num"><i class="fal fa-phone-alt"></i> <a href="tel:03074652848">03074652848 </a></div>
-        <button class="theme_bar_hours" type="button" data-toggle="modal" data-target="#business_hours">
-          <i class="fal fa-clock"></i>
-          <span>01:00 PM - 01:00 AM</span>
-          <i class="fal fa-angle-down"></i>
-        </button>
+      <div class="home_section_2">
+        <div class="home_section_2_figure_box">
+          <figure><img src="images/vision.png"></figure>
+        </div>
+        <div class="home_section_2_body">
+          <div class="home_section_2_content">
+            <h3>Vision</h3>
+            <small>Ethiopian Tour Operator Association</small>
+            <p>The vision for Ethiopian Tour Operator Association is global, attracting
+              People and influencers in business. To contribute resources through time or funding
+              to the growth and development of business. It also supports mentors in establishing their
+              communities within the countries or towns that they live in.</p>
+          </div>
+          <div class="home_section_2_content">
+            <h3>Mission</h3>
+            <small>Ethiopian Tour Operator Association</small>
+            <p>The vision for Ethiopian Tour Operator Association is global, attracting
+              People and influencers in business. To contribute resources through time or funding
+              to the growth and development of business. It also supports mentors in establishing their
+              communities within the countries or towns that they live in.</p>
+          </div>
 
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="business_hours" role="dialog" aria-labelledby="business_hoursLabel" aria-hidden="true"
-    tabindex="-1">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="hours_modal_header">
-          <h5>Opening Hours</h5>
+
         </div>
-        <div class="hours_modal_body">
-          <div class="hours_modal_data"><span>Monday</span><small>01:00 PM - 01:00 AM</small></div>
-          <div class="hours_modal_data"><span>Tuesday</span><small>01:00 PM - 01:00 AM</small></div>
-          <div class="hours_modal_data"><span>Wednesday</span><small>01:00 PM - 01:00 AM</small></div>
-          <div class="hours_modal_data"><span>Thursday</span><small>01:00 PM - 01:00 AM</small></div>
-          <div class="hours_modal_data"><span>Friday</span><small>01:00 PM - 01:00 AM</small></div>
-          <div class="hours_modal_data"><span>Saturday</span><small>01:00 PM - 01:00 AM</small></div>
-          <div class="hours_modal_data"><span>Sunday</span><small>01:00 PM - 01:00 AM</small></div>
-          <!-- <div class="day_time_container">
-            <h1>Please select location first</h1>
-          </div> -->
-        </div>
-        <div class="hours_modal_footer"><button type="button" data-dismiss="modal">Close</button></div>
       </div>
     </div>
   </div>
 
 
 
-  <div class="cat_tab_slider_main">
-    <div class="product_container">
-      <div class="cat_tab_slider_parent">
-        <ul class="nav cat_tab_slider">
-          <li class="nav-item"><a class="nav-link scrolling_tabs active" href="#featured_section_4_all">All</a></li>
-          <li class="nav-item">
-            <a class="nav-link scrolling_tabs " href="#featured_section_4_pizza">Pizza</a>
+  <section class="member_section">
+    <div class="custom_container">
+      <div class="member_main">
+        <div class="custom_sliding_box"><small><i class="fal fa-users"></i></small>
+          <h5>Featured Members</h5>
+          <p>By Ethiopian Tour Operator Association</p>
+          <div class="member_slider_arrow_box_main">
+            <div class="member_slider_arrow_box"></div>
+          </div>
+        </div>
+        <div class="member_list">
+          <ul class="member_slider">
+            <li>
+              <div class="member_figure_box">
+                <figure><a> <img class="lazy" src="images/member1.png" />
+                  </a></figure>
+                <div class="member_figure_tags">
+                  <h6>10 Nov 2023</h6>
+                  <strong><a>New Member - HUMANCULTURE</a></strong>
+                  <p>The city's very own Baskin Robbins! Your go-to place for
+                    the best ice cream in the city.</p>
+                  <div class="member_figure_tags_btn"><a>New Member</a></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="member_figure_box">
+                <figure><a> <img class="lazy" src="images/member1.png" />
+                  </a></figure>
+                <div class="member_figure_tags">
+                  <h6>10 Nov 2023</h6>
+                  <strong><a>New Member - HUMANCULTURE</a></strong>
+                  <p>The city's very own Baskin Robbins! Your go-to place for
+                    the best ice cream in the city.</p>
+                  <div class="member_figure_tags_btn"><a>New Member</a></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="member_figure_box">
+                <figure><a> <img class="lazy" src="images/member1.png" />
+                  </a></figure>
+                <div class="member_figure_tags">
+                  <h6>10 Nov 2023</h6>
+                  <strong><a>New Member - HUMANCULTURE</a></strong>
+                  <p>The city's very own Baskin Robbins! Your go-to place for
+                    the best ice cream in the city.</p>
+                  <div class="member_figure_tags_btn"><a>New Member</a></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="member_figure_box">
+                <figure><a> <img class="lazy" src="images/member1.png" />
+                  </a></figure>
+                <div class="member_figure_tags">
+                  <h6>10 Nov 2023</h6>
+                  <strong><a>New Member - HUMANCULTURE</a></strong>
+                  <p>The city's very own Baskin Robbins! Your go-to place for
+                    the best ice cream in the city.</p>
+                  <div class="member_figure_tags_btn"><a>New Member</a></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="pakages_list_section">
+    <div class="custom_container">
+      <div class="pakages_heading">
+        <h3>Membership Plans
+          <img src="images/vector2.png" alt="vector2">
+        </h3>
+        <p>Exciting News: Ethiopian Tour Operator association is now accepting membership applications.</p>
+      </div>
+
+      <div class="pakages_list_box">
+
+        <div class="single_pakage_box">
+          <div class="single_pakage_box_data">
+            <div class="single_pakage_box_data_content">
+              <div class="single_pakage_box_data_header red_box">
+                <h3>Student Members</h3>
+                <span>$0/Year</span>
+              </div>
+              <div class="single_pakage_features_list">
+                <ul>
+                  <li>
+                    <small>Everything in growth</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Advance catalogue</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Inventory module</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="single_pakage_box_data_get_start_btn"><a class="red_box">Subscribe Now!</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="single_pakage_box">
+          <div class="single_pakage_box_data">
+            <div class="single_pakage_box_data_content">
+              <div class="single_pakage_box_data_header blue_box">
+                <h3>Honorary Members</h3>
+                <span>$0/Year</span>
+              </div>
+              <div class="single_pakage_features_list">
+                <ul>
+                  <li>
+                    <small>Everything in lite</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Upto 450 monthly orders</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>500 Maximum items</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="single_pakage_box_data_get_start_btn"><a class="blue_box">Subscribe Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="single_pakage_box">
+          <div class="single_pakage_box_data">
+            <div class="single_pakage_box_data_content">
+              <div class="single_pakage_box_data_header green_box">
+                <h3>Corporate Members</h3>
+                <span>$20/Year</span>
+              </div>
+              <div class="single_pakage_features_list ">
+                <ul>
+                  <li>
+                    <small>Branded website</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Online ordering</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Custom data access</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Exposure on CWA network</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Secure amazon cloud hosting</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="single_pakage_box_data_get_start_btn"><a class="green_box">Subscribe Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="single_pakage_box">
+          <div class="single_pakage_box_data">
+            <div class="single_pakage_box_data_content">
+              <div class="single_pakage_box_data_header green_box">
+                <h3>Ordinary Member</h3>
+                <span>$50/Year</span>
+              </div>
+              <div class="single_pakage_features_list ">
+                <ul>
+                  <li>
+                    <small>Branded website</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Online ordering</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Custom data access</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Exposure on CWA network</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+                  <li>
+                    <small>Secure amazon cloud hosting</small>
+                    <i class="far fa-check" aria-hidden="true"></i>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="single_pakage_box_data_get_start_btn"><a class="green_box">Subscribe Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <section class="product_brand_section">
+    <div class="custom_container">
+      <div class="product_brand_heading">
+        <div class="brand_asset_1"><img src="images/brand_asset_1.png" alt="brand asset1"></div>
+        <h3>Our Partners
+          <img src="images/vector2.png" alt="vector2">
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in
+          tristique senectus dui pharetra sit.</p>
+      </div>
+
+      <div class="product_brand_list">
+        <div class="brand_slider_arrow_box"></div>
+
+        <ul class="product_brand_slider">
+
+          <li>
+            <div class="product_brand_figure_box">
+              <figure>
+                <img class="lazy" src="images/patner1.png" alt="slide1">
+              </figure>
+
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link scrolling_tabs" href="#featured_section_4_icecream">Ice Cream</a>
+
+          <li>
+            <div class="product_brand_figure_box">
+              <figure>
+                <img class="lazy" src="images/partner2.jpeg" alt="slide2">
+              </figure>
+
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link scrolling_tabs" href="#featured_section_4_sundae">Sundae</a>
+
+          <li>
+            <div class="product_brand_figure_box">
+              <figure>
+                <img class="lazy" src="images/patner3.jpeg" alt="slide3">
+              </figure>
+
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link scrolling_tabs" href="#featured_section_4_icecreamshake">Ice Cream Shake</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrolling_tabs" href="#featured_section_4_tornadoes">Tornadoes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrolling_tabs" href="#featured_section_4_icedtea">Iced Tea</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrolling_tabs" href="#featured_section_4_softdrinks">Soft Drinks</a>
+          <li>
+            <div class="product_brand_figure_box">
+              <figure>
+                <img class="lazy" src="images/patner4.png" alt="slide2">
+              </figure>
+
+            </div>
           </li>
         </ul>
-        <div class="home_product_nav_scroll_btn"><button class="left_arrow" onclick="rightScroll()"><i
-              class="fa fa-angle-left" aria-hidden="true"></i></button> <button class="right_arrow"
-            onclick="leftScroll()"><i class="fa fa-angle-right"></i></button>
+        <div class="brand_asset_3"><img src="images/brand_asset_3.png" alt="brand asset3"></div>
+        <div class="brand_asset_2"><img src="images/brand_asset_2.png" alt="brand asset2"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="reviews_section">
+    <div class="custom_container">
+      <div class="reviews_main">
+        <div class="review_sliding_box">
+          <div class="dummy_img_main">
+            <div class="dummy_img_box"><img src="images/review1.webp"></div>
+            <div class="dummy_img_box"><img src="images/review2.webp"></div>
+          </div>
+          <h5>This is what people say about us</h5>
+          <div class="dummy_img_two"><img src="images/review3.webp"></div>
+          <div class="reviews_slider_arrow_box_main">
+            <div class="reviews_slider_arrow_box"></div>
+          </div>
+        </div>
+        <div class="reviews_list">
+          <ul class="reviews_slider">
+            <li>
+              <div class="reviews_figure_tags">
+                <strong>John Smith, DNP, APRN</strong>
+                <p>It has been a pleasure being a member
+                  of this Mastermind community of inspirational women spearheaded.... </p>
+                <small>22 Dec, 2022</small>
+              </div>
+            </li>
+            <li>
+              <div class="reviews_figure_tags">
+                <strong>John Smith, DNP, APRN</strong>
+                <p>It has been a pleasure being a member
+                  of this Mastermind community of inspirational women spearheaded.... </p>
+                <small>22 Dec, 2022</small>
+              </div>
+            </li>
+            <li>
+              <div class="reviews_figure_tags">
+                <strong>John Smith, DNP, APRN</strong>
+                <p>It has been a pleasure being a member
+                  of this Mastermind community of inspirational women spearheaded.... </p>
+                <small>22 Dec, 2022</small>
+              </div>
+            </li>
+            <li>
+              <div class="reviews_figure_tags">
+                <strong>John Smith, DNP, APRN</strong>
+                <p>It has been a pleasure being a member
+                  of this Mastermind community of inspirational women spearheaded.... </p>
+                <small>22 Dec, 2022</small>
+              </div>
+            </li>
+          </ul>
+          <div class="slider_progress" role="progressbar"><span class="slider__label"></span></div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="product_listing_main_section">
-    <div class="product_container">
-      <div class="shop_product_list_parent">
-        <div class="" id="featured_section_4_all"> </div>
-        <div class="shop_product_list_main" id="featured_section_4_pizza">
-          <div class="shop_product_list_heading">
-            <h3>Bags</h3>
-          </div>
-          <div class="product_list_parent">
 
-            <div class="single_product_box_main">
-              <div class="single_product_box">
-                <figure>
-                  <img src="images/logo.jpg">
+  <section class="gallery_section">
+    <div class="custom_container">
+      <div class="gallery_heading">
+        <div class="gallery_asset_1"><img src="images/brand_asset_1.png" alt="brand asset1"></div>
+        <h3>Our Gallery
+          <img src="images/vector2.png" alt="vector2">
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in
+          tristique senectus dui pharetra sit.</p>
+      </div>
 
-                </figure>
-                <div class="single_product_box_figcaption">
+      <div class="gallery_list">
+        <figure><img src="images/member1.png"></figure>
+        <figure><img src="images/Rectangle.png"></figure>
+        <figure><img src="images/member1.png"></figure>
+        <figure><img src="images/Rectangle.png"></figure>
+        <figure><img src="images/member1.png"></figure>
+        <figure><img src="images/Rectangle.png"></figure>
+        <figure><img src="images/member1.png"></figure>
+        <figure><img src="images/Rectangle.png"></figure>
+      </div>
 
-                  <div class="product_name">
-                    <p>Headset for office and gaming</p>
-                  </div>
-                  <div class="product_description">
-                    <p>This headset is the perfect all-around choice for those who are looking for comfortable,
-                      practical sound quality. </p>
-                  </div>
-                  <div class="price_tags">
-                    <div class="total_and_discount_price"><small class="orignal_price">PKR 850</small>
-                      <h6 class="discount_price text_decoration_line_through">PKR 333.50</h6>
-                    </div>
-                  </div>
-                  <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="single_product_box_main">
-              <div class="single_product_box">
-                <figure>
-                  <img src="images/logo.jpg">
 
-                </figure>
-                <div class="single_product_box_figcaption">
+    </div>
+  </section>
 
-                  <div class="product_name">
-                    <p>Gaming mouse</p>
-                  </div>
-                  <div class="product_description">
-                    <p>This gaming mouse is packed with features that make it the perfect tool for any gaming session.
-                    </p>
-                  </div>
-                  <div class="price_tags">
-                    <div class="total_and_discount_price"><small class="orignal_price">PKR 700</small></div>
-                  </div>
-                  <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="single_product_box_main">
-              <div class="single_product_box">
-                <figure>
-                  <img src="images/logo.jpg">
 
-                </figure>
-                <div class="single_product_box_figcaption">
-
-                  <div class="product_name">
-                    <p>Hot gaming headset</p>
-                  </div>
-                  <div class="product_description">
-                    <p>Are you looking for the ultimate gaming headset? Look no further than the Flexible Gaming
-                      Headset! With top-notch sound quality and stylish lights on the sides, you'll be ready for your
-                      next gaming session. </p>
-                  </div>
-                  <div class="price_tags">
-                    <div class="total_and_discount_price"><small class="orignal_price">PKR 1200</small></div>
-                  </div>
-                  <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="single_product_box_main">
-              <div class="single_product_box">
-                <figure>
-                  <img src="images/logo.jpg">
-
-                </figure>
-                <div class="single_product_box_figcaption">
-
-                  <div class="product_name">
-                    <p>Xbox gaming console + controller</p>
-                  </div>
-                  <div class="product_description">
-                    <p>Experience the ultimate gaming experience with the Xbox Console! This sleek white Xbox console
-                      comes with the must-have Xbox wireless controller, so you can dive into the action right away.
-                    </p>
-                  </div>
-                  <div class="price_tags">
-                    <div class="total_and_discount_price"><small class="orignal_price">PKR 6800</small></div>
-                  </div>
-                  <div class="stock_box">
-                    <p>Not Available</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+  <section class="blog_section">
+    <div class="custom_container">
+      <div class="blog_main">
+        <div class="blog_sliding_box"><small><i class="fa-sharp fa-solid fa-pencil"></i></small>
+          <h5>Blog</h5>
+          <p>By Ethiopian Tour Operator Association</p>
+          <div class="blog_slider_arrow_box_main">
+            <div class="blog_slider_arrow_box"></div>
           </div>
         </div>
-        <div class="shop_product_list_main" id="featured_section_4_icecream">
-          <div class="shop_product_list_heading">
-            <h3>Bags</h3>
-          </div>
-          <div class="product_list_parent">
+        <div class="blog_list">
+          <ul class="blog_slider">
+            <li>
+              <div class="blog_figure_box">
+                <figure><a> <img class="lazy" src="images/member1.png" />
+                  </a></figure>
+                <div class="blog_figure_tags">
+                  <h6>10 Nov 2023</h6>
+                  <strong><a>New Member - HUMANCULTURE</a></strong>
 
-            <div class="single_product_box_main">
-              <div class="single_product_box">
-                <figure>
-                  <img src="images/logo.jpg">
-
-                </figure>
-                <div class="single_product_box_figcaption">
-
-                  <div class="product_name">
-                    <p>Headset for office and gaming</p>
-                  </div>
-                  <div class="product_description">
-                    <p>This headset is the perfect all-around choice for those who are looking for comfortable,
-                      practical sound quality. </p>
-                  </div>
-                  <div class="price_tags">
-                    <div class="total_and_discount_price"><small class="orignal_price">PKR 850</small>
-                      <h6 class="discount_price text_decoration_line_through">PKR 333.50</h6>
-                    </div>
-                  </div>
-                  <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                  <div class="blog_figure_tags_btn"><a>Read Blog</a></div>
                 </div>
               </div>
-            </div>
-            <div class="single_product_box_main">
-              <div class="single_product_box">
-                <figure>
-                  <img src="images/logo.jpg">
+            </li>
+            <li>
+              <div class="blog_figure_box">
+                <figure><a> <img class="lazy" src="images/member1.png" />
+                  </a></figure>
+                <div class="blog_figure_tags">
+                  <h6>10 Nov 2023</h6>
+                  <strong><a>New Member - HUMANCULTURE</a></strong>
 
-                </figure>
-                <div class="single_product_box_figcaption">
-
-                  <div class="product_name">
-                    <p>Gaming mouse</p>
-                  </div>
-                  <div class="product_description">
-                    <p>This gaming mouse is packed with features that make it the perfect tool for any gaming session.
-                    </p>
-                  </div>
-                  <div class="price_tags">
-                    <div class="total_and_discount_price"><small class="orignal_price">PKR 700</small></div>
-                  </div>
-                  <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                  <div class="blog_figure_tags_btn"><a>Read Blog</a></div>
                 </div>
               </div>
-            </div>
-            <div class="single_product_box_main">
-              <div class="single_product_box">
-                <figure>
-                  <img src="images/logo.jpg">
+            </li>
+            <li>
+              <div class="blog_figure_box">
+                <figure><a> <img class="lazy" src="images/member1.png" />
+                  </a></figure>
+                <div class="blog_figure_tags">
+                  <h6>10 Nov 2023</h6>
+                  <strong><a>New Member - HUMANCULTURE</a></strong>
 
-                </figure>
-                <div class="single_product_box_figcaption">
-
-                  <div class="product_name">
-                    <p>Hot gaming headset</p>
-                  </div>
-                  <div class="product_description">
-                    <p>Are you looking for the ultimate gaming headset? Look no further than the Flexible Gaming
-                      Headset! With top-notch sound quality and stylish lights on the sides, you'll be ready for your
-                      next gaming session. </p>
-                  </div>
-                  <div class="price_tags">
-                    <div class="total_and_discount_price"><small class="orignal_price">PKR 1200</small></div>
-                  </div>
-                  <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                  <div class="blog_figure_tags_btn"><a>Read Blog</a></div>
                 </div>
               </div>
-            </div>
-            <div class="single_product_box_main">
-              <div class="single_product_box">
-                <figure>
-                  <img src="images/logo.jpg">
+            </li>
+            <li>
+              <div class="blog_figure_box">
+                <figure><a> <img class="lazy" src="images/member1.png" />
+                  </a></figure>
+                <div class="blog_figure_tags">
+                  <h6>10 Nov 2023</h6>
+                  <strong><a>New Member - HUMANCULTURE</a></strong>
 
-                </figure>
-                <div class="single_product_box_figcaption">
-
-                  <div class="product_name">
-                    <p>Xbox gaming console + controller</p>
-                  </div>
-                  <div class="product_description">
-                    <p>Experience the ultimate gaming experience with the Xbox Console! This sleek white Xbox console
-                      comes with the must-have Xbox wireless controller, so you can dive into the action right away.
-                    </p>
-                  </div>
-                  <div class="price_tags">
-                    <div class="total_and_discount_price"><small class="orignal_price">PKR 6800</small></div>
-                  </div>
-                  <div class="stock_box">
-                    <p>Not Available</p>
-                  </div>
+                  <div class="blog_figure_tags_btn"><a>Read Blog</a></div>
                 </div>
               </div>
-            </div>
-
-          </div>
+            </li>
+          </ul>
         </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="newsletter_two_custom_section">
+    <div class="custom_container">
+      <div class="newsletter_two_custom_box">
+        <div class="newsletter_two_custom_box_content">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>
+            Subscribe to our newsletter to get lastest news &amp; updates directly
+            to your inbox.
+          </p>
+        </div>
+        <form method="POST" action="" id="quick_newslatter_two_recaptcha" novalidate="novalidate">
+          <div class="newsletter_two_form_fields_content">
+            <input id="get-user-subscribe-email" type="text" name="email" placeholder="Email" required />
+
+
+            <button id="newsletter-submit-recaptcha" type="submit" class="submitted btn">
+              <i class="fas fa-paper-plane"></i>
+              <span class="newsletter_two_submit_btn_text">Subscribe</span>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -449,67 +995,80 @@
   <section class="footer-section">
     <div class="footer-container">
       <div class="footer-data-box">
-        <div class="footer-data-box-detail">
+        <div class="footer-data-box-detail mobile_footer_logo_section">
           <div class="footer-detail-box-one">
-            <figure><img src="images/logo.jpg"></figure>
-            <p>Savor Every Bite, Delight in Every Moment!</p>
+            <figure><img src="images/logo.png" /></figure>
+            <p>© Copyrights 2022-All rights reserved</p>
+           
           </div>
         </div>
-       
         <div class="footer-data-box-detail">
           <div class="footer-detail-box-two">
-            <div class="footer-detail-box-heading accordion modtitle active active">
-              <h3 class="footer-collapse-icons">Site Link</h3>
+            <div class="footer-detail-box-heading accordion modtitle ">
+              <h3 class="footer-collapse-icons">Explore</h3>
             </div>
-            <div class="modcontent panel" style="display: block;">
+            <div class="modcontent panel">
               <ul class="footer-detail-box-content-list">
                 <li><a href="/">Home</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/businesses">Businesses</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-data-box-detail">
           <div class="footer-detail-box-two">
-            <div class="footer-detail-box-heading accordion modtitle active">
-              <h3 class="footer-collapse-icons">Useful links</h3>
+            <div class="footer-detail-box-heading accordion modtitle">
+              <h3 class="footer-collapse-icons">About</h3>
             </div>
-            <div class="modcontent panel" style="display: block;">
+            <div class="modcontent panel">
               <ul class="footer-detail-box-content-list">
-                <li><a href="/login">Login/Signup</a></li>
-                <li><a href="/blog">Blog</a></li>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="https://mystcatharines.ca/#Join-the-club">Join Us</a></li>
               </ul>
             </div>
           </div>
         </div>
-       
+        <div class="footer-data-box-detail desktop_footer_logo_section">
+          <div class="footer-detail-box-one">
+            <figure><img src="images/logo.png" /></figure>
+            <p>© Copyrights 2022-All rights reserved</p>
+           
+          </div>
+        </div>
         <div class="footer-data-box-detail">
           <div class="footer-detail-box-two">
-            <div class="footer-detail-box-heading accordion modtitle active">
+            <div class="footer-detail-box-heading accordion modtitle">
               <h3 class="footer-collapse-icons">Social</h3>
             </div>
-            <div class="modcontent panel" style="display: block;">
+            <div class="modcontent panel accordion modtitle">
               <ul class="footer-detail-box-content-list">
-                <li><a href="https://www.facebook.com" target="blank">Facebook</a></li>
-                <li><a href="https://www.instagram.com" target="blank">instagram</a></li>
+                <li><a href="https://www.facebook.com/mystcatharines" target="blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/mystcatharines/" target="blank">instagram</a></li>
               </ul>
             </div>
           </div>
         </div>
-       
+        <div class="footer-data-box-detail">
+          <div class="footer-detail-box-two">
+            <div class="footer-detail-box-heading accordion modtitle">
+              <h3 class="footer-collapse-icons">Others</h3>
+            </div>
+            <div class="modcontent panel accordion modtitle">
+              <ul class="footer-detail-box-content-list">
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://blog.mystcatharines.ca/" target="blank">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <div class="copy_right_section">
-    <div class="footer-container">
-      <div class="copy_right_box">
-        <span>© Copyrights 2022-All rights reserved</span>
-        <small>Powered by <a href="3xservices.com">3xservices.com</a></small>
-      </div>
-    </div>
-  </div>
+
+
+  <script src="js/custom_script.js"></script>
+
 
 </body>
-
 
 </html>
